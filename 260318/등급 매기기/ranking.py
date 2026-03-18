@@ -5,8 +5,8 @@ if n >= 90:
 elif n >= 80:
     print('B')
 elif n >= 70:
-    print('c')
-elif n >= 70:
-    print('c')
-elif n >= 70:
-    print('c')
+    print('C')
+elif n >= 60:
+    print('D')
+else:
+    print('F')
