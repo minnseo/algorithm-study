@@ -1,9 +1,6 @@
-string = input()
-str_lst = list(string)
+s = list(input())
 
-str_lst[1] = 'a'
-str_lst[-2] = 'a'
+s[1] = 'a'
+s[-2] = 'a'
 
-string = ''.join(str_lst)
-
-print(string)
+print(''.join(s))
