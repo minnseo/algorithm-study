@@ -5,9 +5,9 @@ a = input()
 
 cnt = 0
 
-for item in string:
-    if item[2] == a or item[3] == a:
+for word in string:
+    if word[2] == a or word[3] == a:
         cnt += 1
-        print(item)
-        
+        print(word)
+
 print(cnt)
