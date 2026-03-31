@@ -3,5 +3,5 @@ while True:
     
     if n == 0:
         break
-    else:
-        print(n)
+    
+    print(n)
