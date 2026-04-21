@@ -1,5 +1,4 @@
 a, b = 5, 3
 a = b
 
-print(a)
-print(b)
+print(a, b, sep = '\n')
