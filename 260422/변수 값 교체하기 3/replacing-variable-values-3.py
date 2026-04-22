@@ -1,7 +1,4 @@
 a, b = 3, 5
+a, b = b, a
 
-temp = a
-a = b
-b = temp
-
-print(f'{a}\n{b}')
+print(a, b, sep='\n')
