@@ -1,7 +1,5 @@
 a, b, c = 1, 2, 3
-s = a + b + c
-a = s
-b = s
-c = s
+sum = a + b + c
+a, b, c = sum, sum, sum
 
 print(a, b, c)
