@@ -1,4 +1,3 @@
-a = input().split(':')
-h, m = int(a[0]), int(a[1])
+h, m = map(int, input().split(':'))
 
 print(f'{h + 1}:{m}')
