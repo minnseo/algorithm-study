@@ -1,3 +1,3 @@
-a, b = input().split('-')
+a = input().split('-')
 
-print(f'{a}{b}')
+print(a[0], a[1], sep = '')
