@@ -1,14 +1,11 @@
-arr = input().split()
-a = int(arr[0])
-b = int(arr[1])
+a,b = map(int,input().split())
 
-# 출력
-if a % 2 == 0:
-	print("even")
+if a % 2 ==0:
+    print('even')
 else:
-	print("odd")
-	
+    print('odd')
+
 if b % 2 == 0:
-	print("even")
+    print('even')
 else:
-	print("odd")
+    print('odd')
